@@ -1,0 +1,372 @@
+
+/* Reset Styles */
+html, body, div, form, fieldset, legend, label, h1, h2, h3,
+h4, h5, h6, th, td, caption, img, th, td, table {
+    margin: 0;
+    padding: 0;
+    outline: 0px red solid;
+    font-size: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption {
+    font-weight:normal;
+}
+
+img {
+    border: 0;
+}
+
+/* Actual Styles */
+
+
+.wrapper {
+    width: 1920px;
+    height: 1600px;
+    margin: 0px 210px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+    .header {
+        width: inherit;
+        height: 276px;
+    }
+
+        .header1 {
+            width: inherit;
+            height: 156px;
+            background-color: rgb(255, 255, 255);
+        }
+            .header1 img{
+                width: 195px;
+                height: 195px;
+            }
+
+            .header1 h1{
+                color: rgb(71, 71, 71);
+                font-size: 90%;
+                overflow: visible;
+                display: inline-block;
+                vertical-align: top;
+                padding: 52px 0px 0px 0px;
+            }
+
+            .header1 span{
+                color: rgb(38, 102, 156);
+            }
+
+        .header2 {
+            width: 1880px;
+            height: 96px;
+            background-image: linear-gradient(rgb(41, 104, 157),rgb(84, 132, 171),rgb(41, 104, 157));
+            color: rgb(255, 255, 255);
+            font-size: 62%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            padding: 24px 0px 0px 40px;
+        }
+
+    .main {
+        width: inherit;
+        height: 1324px;
+        background-image: linear-gradient(rgb(227, 227, 227),rgb(255, 255, 255) 20%);
+    }
+
+        .sideleft {
+            width: 420px;
+            height: inherit;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .sideleft h1 {
+                padding: 40px 0px 0px 10px;
+                font-size: 31%;
+                font-weight: 700;
+            }
+
+                .sideleft h1 span {
+                    color: rgb(215, 38, 38)
+                }
+
+            .sideleft h2 {
+                font-size: 28%;
+                font-weight: 700;
+                padding: 20px 0px 0px 10px;
+            }
+
+                .sideleft h2 span {
+                    color: rgb(38, 102, 156)
+                }
+            
+            .sideleft_b1 {
+                width: 380px;
+                height: 54px;
+                margin: 40px 0px 0px 15px;
+                padding: 18px 0px 0px 0px;
+                background-image: linear-gradient(rgb(99, 152, 193), rgb(40, 103, 157));
+                border-radius: 10px;
+                color: rgb(255, 255, 255);
+                font-size: 32%;
+                text-align: center;
+                box-shadow: 4px 4px 4px rgb(142, 142, 142);
+            }
+
+            .sideleft_b2 {
+                width: 380px;
+                height: 54px;
+                margin: 8px 0px 0px 15px;
+                padding: 18px 0px 0px 0px;
+                background-image: linear-gradient(rgb(233, 171, 91), rgb(238, 115, 2));
+                border-radius: 10px;
+                color: rgb(255, 255, 255);
+                font-size: 32%;
+                text-align: center;
+                box-shadow: 4px 4px 4px rgb(142, 142, 142);
+            }
+
+            .sideleft_horbar {
+                width: 400px;
+                height: 2px;
+                margin: 38px 0px 0px 10px;
+                background-color: rgb(154, 154, 154);
+                box-shadow: 2px 2px rgb(238, 238, 238);
+            }
+
+            .sidebar_adv {
+                width: 400px;
+                height: 600px;
+                margin: 52px 0px 0px 10px;
+                background-image: url("/ad_background.png");
+                background-size: 205%;
+                background-position: left top;
+                box-shadow: 6px 6px 6px rgb(131, 131, 131);
+            }
+
+                .sidebar_adv h1 {
+                    padding: 40px 0px 0px 0px;
+                    text-align: center;
+                    font-size: 45%;
+                    color: rgb(255, 255, 255);
+                }
+
+                .sidebar_adv img {
+                    width: 180px;
+                    height: auto;
+                    margin: 0px 0px 0px 110px;
+                }
+
+                .sidebar_adv_bt {
+                    width: 340px;
+                    height: 53px;
+                    margin: 24px 0px 0px 30px;
+                    padding: 10px 0px 0px 0px;
+                    background-image: linear-gradient(rgb(126, 209, 222), rgb(0, 193, 221));
+                    border-radius: 10px;
+                    font-weight: 500;
+                    text-align: center;
+                    font-size: 33%;
+                    color: rgb(255, 255, 255);
+                }
+
+                    .sidebar_adv_car1 {
+                        color: rgb(138, 222, 234);
+                        font-size: 80%;
+                        font-weight: 900;
+                        display: inline-block;
+                        vertical-align: text-bottom;
+                    }
+
+                    .sidebar_adv_car2 {
+                        color: rgb(196, 238, 245);
+                        font-size: 80%;
+                        font-weight: 900;
+                        display: inline-block;
+                        vertical-align: text-bottom;
+                    }
+
+                    .sidebar_adv_car3 {
+                        color: rgb(255, 255, 255);
+                        font-size: 80%;
+                        font-weight: 900;
+                        display: inline-block;
+                        vertical-align: text-bottom;                      
+                    }
+        
+        .main_right {
+            width: 1400px;
+            height: 1324px;
+            margin: 0px 0px 0px 80px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .main_right_header {
+                width: inherit;
+                height: 130px;
+                border-bottom: 2px rgb(154, 154, 154) solid
+            }
+
+                .main_right_head_home {
+                    width: 300px;
+                    height: 116px;
+                    padding: 20px 0px 0px 0px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                    .main_right_head_home img {
+                        width: 42px;
+                        height: 42px;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+
+                    .main_right_header h1 {
+                        font-size: 37%;
+                        color: rgb(38, 102, 156);
+                        display: inline-block;
+                        vertical-align: top;
+                        padding: 5px 0px 0px 10px;
+                        font-weight: 600;
+                    }
+
+                    .main_right_contact {
+                        width: 400px;
+                        height: 130px;
+                        margin: 0px 0px 0px 700px;
+                        display: inline-block;
+                        vertical-align: top; 
+                    }
+
+                        .main_right_contact img {
+                            width: 85px;
+                            height: 85px;
+                            margin: 20px 0px 25px 0px;
+                            display: inline-block;
+                            vertical-align: top;
+                        }
+
+                        .main_right_text {
+                            width: 315px;
+                            height: 125px;
+                            text-align: right;
+                            display: inline-block;
+                            vertical-align: top;
+                            font-size: 21%;
+                            padding: 5px 0px 0px 0px;
+                            font-stretch: ultra-condensed;
+                            font-weight: 500;
+                            color: rgb(87, 87, 87);
+                        }
+
+                            .main_right_text span {
+                                font-size: 230%;
+                                color: rgb(0, 192, 221);
+                                font-weight: 600;
+                            }
+
+            .main_right_sub1 {
+                width: inherit;
+                height: 132px;
+                font-size: 28%;
+                font-weight: 500;
+            }
+
+                .main_right_sub1 h1{
+                    width: inherit;
+                    height: 132px;
+                    font-size: 128%;
+                    line-height: 65px;
+                    margin: 0px 0px -70px 0px;
+                    color: rgb(38, 102, 158);
+                    font-weight: 700;
+                }
+
+                
+                
+                .main_right_sub1 li{
+                    margin: -20px 0px 30px 30px;
+                }
+                
+                .main_right_sub1 img{ 
+                    height: 200px;
+                    width: auto;
+                    margin: 0px 0px 10px 400px;
+                }
+
+                .main_right_sub1 ol {
+                    margin: -30px 0px 0px 0px;
+                }
+
+            .main_right_sub2 {
+                width: 1360px;
+                height: 246px;
+                margin: 0px 0px 0px 15px;
+                border-left: 10px rgb(0, 135, 221) solid;
+                border-top: 10px rgb(0, 135, 221) solid;
+                border-right: 10px rgb(0, 135, 221) solid;
+                box-shadow: 4px 4px 4px rgb(147, 147, 147);
+            }
+
+                .main_right_sub2 img {
+                    height: 200px;
+                    width: auto; 
+                    margin: 25px 40px 0px 25px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                .main_right_sub2_text {
+                    height: 246px;
+                    width: 1050px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                .main_right_sub2 h1{
+                    width: 1050px;
+                    height: 60px;
+                    font-size: 36%;
+                    line-height: 65px;
+                    margin: 15px 0px 5px 0px;
+                    color: rgb(38, 102, 158);
+                    font-weight: 700;
+                }
+
+                .main_right_sub2 p {
+                    width: 1050px;
+                    font-size: 28%;
+                    line-height: 30px;
+                    margin: 0px 0px 10px 0px;
+                }
+            
+            .hunter {
+                width: 1400px;
+                height: 8px;
+                background-color: white;
+            }
+            
+            .main_right_emph1 {
+                color: rgb(2, 151, 173);
+                font-weight: 700;
+            }
+
+            .main_right_emph2 {
+                font-weight: 700;
+            }
+
+            .main_right_emph3 {
+                color: rgb(2, 151, 173);
+                font-weight: 700;
+            }
